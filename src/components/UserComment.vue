@@ -19,14 +19,17 @@
 </template>
 
 <script>
-  import UserMessage from 'components/UserMessage'
-  import ValuationComment from 'components/ValuationComment'
-  export default{
-    name: 'UserComment',
-    components: {
-      UserMessage,
-      ValuationComment
-    },
-    props: ['myMessage']
-  }
+import UserMessage from 'components/UserMessage'
+import ValuationComment from 'components/ValuationComment'
+export default {
+  name: 'UserComment',
+  components: {
+    UserMessage,
+    ValuationComment
+  },
+  props: ['myMessage']
+}
 </script>
+<style media="screen">
+
+</style>

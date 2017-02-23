@@ -5,13 +5,16 @@
   </div>
 </template>
 <script>
-  export default{
-    name: 'ValuationComment',
-    data: function () {
-      return {
-        counterup: 0,
-        counterdown: 0
-      }
+export default{
+  name: 'ValuationComment',
+  data: function () {
+    return {
+      counterup: 0,
+      counterdown: 0
     }
   }
+}
 </script>
+<style media="screen">
+
+</style>

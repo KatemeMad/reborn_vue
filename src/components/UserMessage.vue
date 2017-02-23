@@ -3,8 +3,11 @@
 </template>
 
 <script>
-  export default{
-    name: 'UserMessage',
-    props: ['myMessage']
-  }
+export default{
+  name: 'UserMessage',
+  props: ['myMessage']
+}
 </script>
+<style media="screen">
+
+</style>

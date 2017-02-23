@@ -6,11 +6,14 @@
 
 <script>
 import UserComment from 'components/UserComment'
-  export default{
-    name: 'ListComment',
-    components: {
-      UserComment
-    },
-    props: ['myMessage']
-  }
+export default {
+  name: 'ListComment',
+  components: {
+    UserComment
+  },
+  props: ['myMessage']
+}
 </script>
+<style media="screen">
+
+</style>

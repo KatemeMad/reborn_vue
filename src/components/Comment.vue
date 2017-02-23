@@ -13,4 +13,17 @@ import ListComment from 'components/ListComment'
 import UserComment from 'components/UserComment'
 import UserMessage from 'components/UserMessage'
 import ValuationComment from 'components/ValuationComment'
+export default {
+  name: 'Comment',
+  components: {
+    FormComment,
+    ListComment,
+    UserComment,
+    UserMessage,
+    ValuationComment
+  }
+}
 </script>
+<style media="screen">
+
+</style>
